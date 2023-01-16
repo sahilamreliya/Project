@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        View Button2 = null;
-        Button2.setOnClickListener(new View.OnClickListener() {
+
+        button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        View btn3;
+
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
